@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+header div.navBar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** box1 **/
+header div.navBar div.nav-log {
+    width: 100px;
+    height: 50px;
+}
+
+ div.logo {
+    background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+
+div.border {
+    border: 1.5px solid transparent;
+}
+
+div.border:hover {
+    border:  1.5px solid white;
+}
+
+/** box2 **/
+p.add-first {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+p.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+div.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+div.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+select.search-select {
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+input.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+div.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: chocolate;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
