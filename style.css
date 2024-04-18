@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
+    border: border-box; /** jitni bhi padding kisi element ko mile or jitna bhi border size us element ko mile bha size uski height or width ke under count honi chaiye **/ 
 }
 
 header div.navBar {
@@ -19,7 +19,7 @@ header div.navBar div.nav-log {
     height: 50px;
 }
 
- div.logo {
+div.logo {
     background-image: url("https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png");
     background-size: cover;
     width: 100px;
@@ -38,7 +38,7 @@ div.border:hover {
 p.add-first {
     color: #cccccc;
     font-size: 0.75rem;
-    margin-left: 15px;
+    margin-left: 16px;
 }
 
 p.add-second {
@@ -58,6 +58,10 @@ div.nav-search {
     width: 600px;
     height: 40px;
     border-radius: 5px;
+}
+
+div.nav-search:hover {
+    border: 1.3px solid chocolate;
 }
 
 select.search-select {
@@ -86,3 +90,137 @@ div.search-icon {
     border-bottom-right-radius: 5px;
     color: black;
 }
+
+/* box4 & box6*/
+div p span {
+    font-size: 0.7rem;
+}
+
+p.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+div.nav-cart i {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* panel */
+div.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.panel-opts p {
+    display: inline;
+    margin-left: 15px;
+}
+
+div.panel-opts {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+div.panel-deals {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* hero section */
+div.hero-section {
+    height: 350px;
+    background-image: url(./assets/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div.hero-msg {
+    width: 95%;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 70px;
+}
+
+div.hero-msg a {
+    color: #007185;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* shop section */
+div.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+div.page {
+    width: 23%;
+    height: 350px;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+div.box-image {
+    height: 300px;
+}
+
+div.page-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+div.page-content h2 {
+    font-size: medium;
+    margin-bottom: 8px;
+}
+
+div.page-content p {
+    color: #007185;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+div.page-content button {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+div.page-content span {
+    color: red;
+    font-size: 10px;
+}
+
+div.page-content #para1 {
+    font-size: 10px;
+    margin-top: 6px;
+    color: black;
+}
+
+div.page-content div.box-image1 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+

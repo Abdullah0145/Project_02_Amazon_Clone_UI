@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon_Clone</title>
+    <title>Amazon_Clone_UI</title>
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- cdnjs font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header>
+        <!-- navBar section -->
         <div class="navBar">
+            <!-- box1 -->
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
 
+            <!-- box2 -->
             <div class="nav-address border">
                 <p class="add-first">Deliver to</p>
                 <div class="address-icon">
@@ -22,7 +27,8 @@
                 </div>
             </div>
 
-            <div class="nav-search border">
+            <!-- box3 -->
+            <div class="nav-search">
                 <select class="search-select">
                     <option>All</option>
                 </select>
@@ -31,7 +37,108 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div> 
             </div>
+        
+        
+        <div class="nav-singing border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
         </div>
+
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <div class="nav-second">& Orders</div>
+        </div>
+
+        <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>cart</span>
+        </div>
+    </div>
+
+    <div class="panel">
+        <i class="fa-solid fa-bars"></i>
+        <p>All</p>
+
+        <div class="panel-opts">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+
+        <div class="panel-deals">
+            <p>Shop deals in Electronics</p>
+        </div>
+    </div>
     </header>
+
+    <!-- hero-section -->
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <!-- shop section -->
+    <div class="shop-section">
+        
+        <!-- page1 -->
+        <div class="page1 page">
+            <div class="page-content">
+                <h2>Home decor under $50</h2>
+                <div class="box-image" style="background-image: url('./assets/Home_decoder_Image.jpg');"></div>
+                <p>Shop now</p>
+            </div>
+        </div>
+
+        <!-- page2 -->
+        <div class="page2 page">
+            <div class="page-content">
+                <h2>Top Deal</h2>
+                <div class="box-image" style="background-image: url('./assets/Bathroom-items.jpeg');"></div>
+                <button>Up to 53% off</button>
+                <span>Limited time deal</span>
+                <p id="para1">Bathroom items from Tens Home, SparkPod, Liba, and more</p>
+                <p>Shop now</p>
+            </div>
+        </div>
+
+        <!-- page3 -->
+        <div class="page3 page">
+            <div class="page-content">
+                <h2>Toys under $25</h2>
+                <div class="box-image" style="background-image: url('./assets/Toys_Image.jpg');"></div>
+                <p>Shop now</p>
+            </div>
+        </div>
+        <div class="page4 page">
+            <div class="page-content">
+                <h2>Fashion trends you like</h2>
+                <div class="box-image1" style="background-image: url('./assets/frok-image.jpg');"></div>
+                <p id="para1">Dresses</p>
+            </div>
+
+            <div class="page-content">
+                <h2>Fashion trends you like</h2>
+                <div class="box-image1" style="background-image: url('./assets/frok-image.jpg');"></div>
+                <p id="para1">Dresses</p>
+            </div>
+
+            <div class="page-content">
+                <h2>Fashion trends you like</h2>
+                <div class="box-image1" style="background-image: url('./assets/frok-image.jpg');"></div>
+                <p id="para1">Dresses</p>
+            </div>
+
+            <div class="page-content">
+                <h2>Fashion trends you like</h2>
+                <div class="box-image1" style="background-image: url('./assets/frok-image.jpg');"></div>
+                <p id="para1">Dresses</p>
+            </div>
+        </div>
+    </div>
+
+    
 </body>
 </html>
